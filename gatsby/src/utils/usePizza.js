@@ -56,7 +56,7 @@ export default function usePizza({pizzas, values}){
         }else{
             //all is working
             setLoading(false)
-            setMessage('Successful Pizza fetch')
+            setMessage('Thank you for your order')  
         }
 
     }
