@@ -90,7 +90,7 @@ export default function OrdersPage({data}) {
             <h3>Your Total Is {formatMoney(calculateOrderTotal(order, pizzas))}</h3>
             <div>{error ? <p>Error:{error}</p> : ''}</div>
             <button type='submit' disabled={loading}>
-                {loading ? 'Placing Order' : 'Order Ahead'}
+                {loading ? 'Processing Order' : 'Submit Order'}
             </button>
             </fieldset>
         </OrderStyles>
